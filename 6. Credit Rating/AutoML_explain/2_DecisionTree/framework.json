@@ -1,0 +1,143 @@
+{
+    "uid": "b6693a5b-992e-4ac1-90b0-bbae3bbe6d5e",
+    "name": "2_DecisionTree",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "modal_month": {
+                            "Apr": 0,
+                            "Aug": 1,
+                            "Dec": 2,
+                            "Feb": 3,
+                            "Jan": 4,
+                            "Jul": 5,
+                            "Jun": 6,
+                            "Mar": 7,
+                            "May": 8,
+                            "Nov": 9,
+                            "Oct": 10,
+                            "Sep": 11
+                        },
+                        "max_year": {
+                            "09": 0,
+                            "15": 1,
+                            "16": 2,
+                            "17": 3,
+                            "18": 4,
+                            "19": 5
+                        }
+                    },
+                    "columns": [
+                        "modal_month",
+                        "max_year"
+                    ]
+                }
+            ],
+            "categorical_y": {
+                "A": 0,
+                "AA": 1,
+                "AAA": 2,
+                "B": 3,
+                "C": 4
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "modal_month": [
+                        "categorical_to_int"
+                    ],
+                    "max_year": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Decision Tree",
+            "algorithm_short_name": "Decision Tree",
+            "uid": "991136a0-8279-467c-9700-334d98cf9f02",
+            "params": {
+                "model_type": "Decision Tree",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_depth": 3,
+                "num_class": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 1,
+            "train_cant_improve_limit": 0,
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "modal_month": [
+                    "categorical_to_int"
+                ],
+                "max_year": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "Decision Tree",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "criterion": "gini",
+            "max_depth": 3,
+            "num_class": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "2_DecisionTree",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "2_DecisionTree\\learner_fold_0.decision_tree"
+    ],
+    "predictions_fname": "2_DecisionTree\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.9144488775661206,
+    "train_time": 22.101374864578247,
+    "is_stacked": false
+}

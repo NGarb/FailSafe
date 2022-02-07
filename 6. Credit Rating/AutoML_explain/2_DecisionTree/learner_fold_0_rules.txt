@@ -1,0 +1,16 @@
+if (equity_ratio > 21.35) and (equity-4 <= 612.5) and (profit_after_net_financial_items > -6.5) then class: AA (proba: 73.54%) | based on 2,494 samples
+
+if (equity_ratio > 21.35) and (equity-4 > 612.5) and (profit_margin > 4.35) then class: AAA (proba: 65.65%) | based on 2,454 samples
+
+if (equity_ratio > 21.35) and (equity-4 > 612.5) and (profit_margin <= 4.35) then class: AA (proba: 47.45%) | based on 1,058 samples
+
+if (equity_ratio <= 21.35) and (equity_ratio > 5.15) and (profit_after_net_financial_items <= 352.0) then class: A (proba: 59.42%) | based on 939 samples
+
+if (equity_ratio <= 21.35) and (equity_ratio > 5.15) and (profit_after_net_financial_items > 352.0) then class: AA (proba: 51.37%) | based on 547 samples
+
+if (equity_ratio <= 21.35) and (equity_ratio <= 5.15) and (equity > 21.5) then class: B (proba: 71.26%) | based on 334 samples
+
+if (equity_ratio > 21.35) and (equity-4 <= 612.5) and (profit_after_net_financial_items <= -6.5) then class: A (proba: 58.06%) | based on 217 samples
+
+if (equity_ratio <= 21.35) and (equity_ratio <= 5.15) and (equity <= 21.5) then class: C (proba: 94.44%) | based on 180 samples
+

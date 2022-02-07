@@ -1,0 +1,2220 @@
+{
+    "fit_level": "not_so_random",
+    "time_controller": {
+        "total_time_limit": 3600,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "not_so_random",
+            "golden_features",
+            "insert_random_feature",
+            "features_selection",
+            "hill_climbing_1",
+            "hill_climbing_2",
+            "ensemble"
+        ],
+        "algorithms": [
+            "Random Forest",
+            "LightGBM",
+            "Xgboost",
+            "CatBoost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.1772618293762207
+            },
+            {
+                "model_name": "1_Default_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "default_algorithms",
+                "train_time": 76.61320877075195
+            },
+            {
+                "model_name": "2_Default_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "default_algorithms",
+                "train_time": 120.39758539199829
+            },
+            {
+                "model_name": "3_Default_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "default_algorithms",
+                "train_time": 87.01793670654297
+            },
+            {
+                "model_name": "4_Default_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "default_algorithms",
+                "train_time": 35.72541546821594
+            },
+            {
+                "model_name": "5_Default_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "default_algorithms",
+                "train_time": 31.453539848327637
+            },
+            {
+                "model_name": "10_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 73.11679911613464
+            },
+            {
+                "model_name": "6_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 132.3410873413086
+            },
+            {
+                "model_name": "14_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 80.80505037307739
+            },
+            {
+                "model_name": "18_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 18.544763803482056
+            },
+            {
+                "model_name": "22_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 30.366639852523804
+            },
+            {
+                "model_name": "11_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 26.84361743927002
+            }
+        ],
+        "is_hill_climbing": true,
+        "is_stacking": false
+    },
+    "all_params": {
+        "default_algorithms": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "objective": "multiclass",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 0.9,
+                    "min_data_in_leaf": 10,
+                    "seed": 1,
+                    "metric": "multi_logloss",
+                    "custom_eval_metric_name": null,
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "1_Default_LightGBM",
+                "status": "trained",
+                "final_loss": 0.6641863383114402,
+                "train_time": 77.62323760986328,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "objective": "multi:softprob",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 2,
+                    "eval_metric": "mlogloss",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "2_Default_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6570467705181895,
+                "train_time": 121.1911735534668,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "learning_rate": 0.15,
+                    "depth": 5,
+                    "rsm": 1,
+                    "loss_function": "MultiClass",
+                    "seed": 3,
+                    "eval_metric": "MultiClass",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "3_Default_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6754743917119116,
+                "train_time": 87.90011882781982,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "revenue": [
+                            "scale_normal"
+                        ],
+                        "revenue-1": [
+                            "scale_normal"
+                        ],
+                        "revenue-2": [
+                            "scale_normal"
+                        ],
+                        "revenue-3": [
+                            "scale_normal"
+                        ],
+                        "revenue-4": [
+                            "scale_normal"
+                        ],
+                        "net_sales": [
+                            "scale_normal"
+                        ],
+                        "net_sales-1": [
+                            "scale_normal"
+                        ],
+                        "net_sales-2": [
+                            "scale_normal"
+                        ],
+                        "net_sales-3": [
+                            "scale_normal"
+                        ],
+                        "net_sales-4": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-1": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-2": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-3": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-4": [
+                            "scale_normal"
+                        ],
+                        "profit": [
+                            "scale_normal"
+                        ],
+                        "profit-1": [
+                            "scale_normal"
+                        ],
+                        "profit-2": [
+                            "scale_normal"
+                        ],
+                        "profit-3": [
+                            "scale_normal"
+                        ],
+                        "profit-4": [
+                            "scale_normal"
+                        ],
+                        "assets": [
+                            "scale_normal"
+                        ],
+                        "assets-1": [
+                            "scale_normal"
+                        ],
+                        "assets-2": [
+                            "scale_normal"
+                        ],
+                        "assets-3": [
+                            "scale_normal"
+                        ],
+                        "assets-4": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-1": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-2": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-3": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-4": [
+                            "scale_normal"
+                        ],
+                        "equity": [
+                            "scale_normal"
+                        ],
+                        "equity-1": [
+                            "scale_normal"
+                        ],
+                        "equity-2": [
+                            "scale_normal"
+                        ],
+                        "equity-3": [
+                            "scale_normal"
+                        ],
+                        "equity-4": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "profit_margin": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-1": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-2": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-3": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-4": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "modal_month": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "always_same_month": [
+                            "scale_normal"
+                        ],
+                        "max_year": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "min_year": [
+                            "scale_normal"
+                        ],
+                        "max_year_gap": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.05,
+                    "seed": 4,
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "4_Default_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.8653336190295646,
+                "train_time": 36.6259765625,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "criterion": "gini",
+                    "max_features": 0.9,
+                    "min_samples_split": 30,
+                    "max_depth": 4,
+                    "seed": 5,
+                    "eval_metric_name": "logloss",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "5_Default_RandomForest",
+                "status": "trained",
+                "final_loss": 0.8134862876446626,
+                "train_time": 32.46053981781006,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            }
+        ],
+        "not_so_random": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "multiclass",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "multi_logloss",
+                    "custom_eval_metric_name": null,
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "10_LightGBM",
+                "status": "trained",
+                "final_loss": 0.656651374510266,
+                "train_time": 74.0141544342041,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "multi:softprob",
+                    "eta": 0.075,
+                    "max_depth": 8,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "mlogloss",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "6_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6557715262789402,
+                "train_time": 133.1130895614624,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "learning_rate": 0.15,
+                    "depth": 3,
+                    "rsm": 0.8,
+                    "loss_function": "MultiClass",
+                    "eval_metric": "MultiClass",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "14_CatBoost",
+                "status": "trained",
+                "final_loss": 0.6858203281681259,
+                "train_time": 81.6481204032898,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.5,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "18_RandomForest",
+                "status": "trained",
+                "final_loss": 0.8125793158847989,
+                "train_time": 19.34375786781311,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "revenue": [
+                            "scale_normal"
+                        ],
+                        "revenue-1": [
+                            "scale_normal"
+                        ],
+                        "revenue-2": [
+                            "scale_normal"
+                        ],
+                        "revenue-3": [
+                            "scale_normal"
+                        ],
+                        "revenue-4": [
+                            "scale_normal"
+                        ],
+                        "net_sales": [
+                            "scale_normal"
+                        ],
+                        "net_sales-1": [
+                            "scale_normal"
+                        ],
+                        "net_sales-2": [
+                            "scale_normal"
+                        ],
+                        "net_sales-3": [
+                            "scale_normal"
+                        ],
+                        "net_sales-4": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-1": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-2": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-3": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-4": [
+                            "scale_normal"
+                        ],
+                        "profit": [
+                            "scale_normal"
+                        ],
+                        "profit-1": [
+                            "scale_normal"
+                        ],
+                        "profit-2": [
+                            "scale_normal"
+                        ],
+                        "profit-3": [
+                            "scale_normal"
+                        ],
+                        "profit-4": [
+                            "scale_normal"
+                        ],
+                        "assets": [
+                            "scale_normal"
+                        ],
+                        "assets-1": [
+                            "scale_normal"
+                        ],
+                        "assets-2": [
+                            "scale_normal"
+                        ],
+                        "assets-3": [
+                            "scale_normal"
+                        ],
+                        "assets-4": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-1": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-2": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-3": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-4": [
+                            "scale_normal"
+                        ],
+                        "equity": [
+                            "scale_normal"
+                        ],
+                        "equity-1": [
+                            "scale_normal"
+                        ],
+                        "equity-2": [
+                            "scale_normal"
+                        ],
+                        "equity-3": [
+                            "scale_normal"
+                        ],
+                        "equity-4": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "profit_margin": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-1": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-2": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-3": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-4": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "modal_month": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "always_same_month": [
+                            "scale_normal"
+                        ],
+                        "max_year": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "min_year": [
+                            "scale_normal"
+                        ],
+                        "max_year_gap": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "dense_1_size": 32,
+                    "dense_2_size": 4,
+                    "learning_rate": 0.05,
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "22_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.8772558546138052,
+                "train_time": 31.176974773406982,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "multiclass",
+                    "num_leaves": 63,
+                    "learning_rate": 0.2,
+                    "feature_fraction": 0.5,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "multi_logloss",
+                    "custom_eval_metric_name": null,
+                    "num_class": 5,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "11_LightGBM",
+                "status": "trained",
+                "final_loss": 0.697807443803737,
+                "train_time": 27.666582345962524,
+                "data_type": "original",
+                "max_time_for_learner": 72.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "multi:softprob",
+                    "eta": 0.1,
+                    "max_depth": 8,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "mlogloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "7_Xgboost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.2,
+                    "depth": 5,
+                    "rsm": 0.7,
+                    "loss_function": "MultiClass",
+                    "eval_metric": "MultiClass",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "15_CatBoost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 30,
+                    "max_depth": 7,
+                    "eval_metric_name": "logloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "19_RandomForest",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "revenue": [
+                            "scale_normal"
+                        ],
+                        "revenue-1": [
+                            "scale_normal"
+                        ],
+                        "revenue-2": [
+                            "scale_normal"
+                        ],
+                        "revenue-3": [
+                            "scale_normal"
+                        ],
+                        "revenue-4": [
+                            "scale_normal"
+                        ],
+                        "net_sales": [
+                            "scale_normal"
+                        ],
+                        "net_sales-1": [
+                            "scale_normal"
+                        ],
+                        "net_sales-2": [
+                            "scale_normal"
+                        ],
+                        "net_sales-3": [
+                            "scale_normal"
+                        ],
+                        "net_sales-4": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-1": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-2": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-3": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-4": [
+                            "scale_normal"
+                        ],
+                        "profit": [
+                            "scale_normal"
+                        ],
+                        "profit-1": [
+                            "scale_normal"
+                        ],
+                        "profit-2": [
+                            "scale_normal"
+                        ],
+                        "profit-3": [
+                            "scale_normal"
+                        ],
+                        "profit-4": [
+                            "scale_normal"
+                        ],
+                        "assets": [
+                            "scale_normal"
+                        ],
+                        "assets-1": [
+                            "scale_normal"
+                        ],
+                        "assets-2": [
+                            "scale_normal"
+                        ],
+                        "assets-3": [
+                            "scale_normal"
+                        ],
+                        "assets-4": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-1": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-2": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-3": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-4": [
+                            "scale_normal"
+                        ],
+                        "equity": [
+                            "scale_normal"
+                        ],
+                        "equity-1": [
+                            "scale_normal"
+                        ],
+                        "equity-2": [
+                            "scale_normal"
+                        ],
+                        "equity-3": [
+                            "scale_normal"
+                        ],
+                        "equity-4": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "profit_margin": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-1": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-2": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-3": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-4": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "modal_month": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "always_same_month": [
+                            "scale_normal"
+                        ],
+                        "max_year": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "min_year": [
+                            "scale_normal"
+                        ],
+                        "max_year_gap": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.01,
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "23_NeuralNetwork",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "multiclass",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "multi_logloss",
+                    "custom_eval_metric_name": null,
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "12_LightGBM",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "multi:softprob",
+                    "eta": 0.1,
+                    "max_depth": 7,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "mlogloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "8_Xgboost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.2,
+                    "depth": 6,
+                    "rsm": 0.9,
+                    "loss_function": "MultiClass",
+                    "eval_metric": "MultiClass",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "16_CatBoost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.8,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "20_RandomForest",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "revenue": [
+                            "scale_normal"
+                        ],
+                        "revenue-1": [
+                            "scale_normal"
+                        ],
+                        "revenue-2": [
+                            "scale_normal"
+                        ],
+                        "revenue-3": [
+                            "scale_normal"
+                        ],
+                        "revenue-4": [
+                            "scale_normal"
+                        ],
+                        "net_sales": [
+                            "scale_normal"
+                        ],
+                        "net_sales-1": [
+                            "scale_normal"
+                        ],
+                        "net_sales-2": [
+                            "scale_normal"
+                        ],
+                        "net_sales-3": [
+                            "scale_normal"
+                        ],
+                        "net_sales-4": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-1": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-2": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-3": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-4": [
+                            "scale_normal"
+                        ],
+                        "profit": [
+                            "scale_normal"
+                        ],
+                        "profit-1": [
+                            "scale_normal"
+                        ],
+                        "profit-2": [
+                            "scale_normal"
+                        ],
+                        "profit-3": [
+                            "scale_normal"
+                        ],
+                        "profit-4": [
+                            "scale_normal"
+                        ],
+                        "assets": [
+                            "scale_normal"
+                        ],
+                        "assets-1": [
+                            "scale_normal"
+                        ],
+                        "assets-2": [
+                            "scale_normal"
+                        ],
+                        "assets-3": [
+                            "scale_normal"
+                        ],
+                        "assets-4": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-1": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-2": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-3": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-4": [
+                            "scale_normal"
+                        ],
+                        "equity": [
+                            "scale_normal"
+                        ],
+                        "equity-1": [
+                            "scale_normal"
+                        ],
+                        "equity-2": [
+                            "scale_normal"
+                        ],
+                        "equity-3": [
+                            "scale_normal"
+                        ],
+                        "equity-4": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "profit_margin": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-1": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-2": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-3": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-4": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "modal_month": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "always_same_month": [
+                            "scale_normal"
+                        ],
+                        "max_year": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "min_year": [
+                            "scale_normal"
+                        ],
+                        "max_year_gap": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "dense_1_size": 64,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.08,
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "24_NeuralNetwork",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "multiclass",
+                    "num_leaves": 95,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 1.0,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "multi_logloss",
+                    "custom_eval_metric_name": null,
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "13_LightGBM",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "multi:softprob",
+                    "eta": 0.15,
+                    "max_depth": 8,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "mlogloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "9_Xgboost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "learning_rate": 0.15,
+                    "depth": 6,
+                    "rsm": 0.8,
+                    "loss_function": "MultiClass",
+                    "eval_metric": "MultiClass",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "17_CatBoost",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "modal_month": [
+                            "categorical_to_int"
+                        ],
+                        "max_year": [
+                            "categorical_to_int"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "criterion": "entropy",
+                    "max_features": 0.6,
+                    "min_samples_split": 50,
+                    "max_depth": 6,
+                    "eval_metric_name": "logloss",
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "21_RandomForest",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "revenue": [
+                            "scale_normal"
+                        ],
+                        "revenue-1": [
+                            "scale_normal"
+                        ],
+                        "revenue-2": [
+                            "scale_normal"
+                        ],
+                        "revenue-3": [
+                            "scale_normal"
+                        ],
+                        "revenue-4": [
+                            "scale_normal"
+                        ],
+                        "net_sales": [
+                            "scale_normal"
+                        ],
+                        "net_sales-1": [
+                            "scale_normal"
+                        ],
+                        "net_sales-2": [
+                            "scale_normal"
+                        ],
+                        "net_sales-3": [
+                            "scale_normal"
+                        ],
+                        "net_sales-4": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-1": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-2": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-3": [
+                            "scale_normal"
+                        ],
+                        "profit_after_net_financial_items-4": [
+                            "scale_normal"
+                        ],
+                        "profit": [
+                            "scale_normal"
+                        ],
+                        "profit-1": [
+                            "scale_normal"
+                        ],
+                        "profit-2": [
+                            "scale_normal"
+                        ],
+                        "profit-3": [
+                            "scale_normal"
+                        ],
+                        "profit-4": [
+                            "scale_normal"
+                        ],
+                        "assets": [
+                            "scale_normal"
+                        ],
+                        "assets-1": [
+                            "scale_normal"
+                        ],
+                        "assets-2": [
+                            "scale_normal"
+                        ],
+                        "assets-3": [
+                            "scale_normal"
+                        ],
+                        "assets-4": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-1": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-2": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-3": [
+                            "scale_normal"
+                        ],
+                        "lt_liabilities-4": [
+                            "scale_normal"
+                        ],
+                        "equity": [
+                            "scale_normal"
+                        ],
+                        "equity-1": [
+                            "scale_normal"
+                        ],
+                        "equity-2": [
+                            "scale_normal"
+                        ],
+                        "equity-3": [
+                            "scale_normal"
+                        ],
+                        "equity-4": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "equity_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "profit_margin": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-1": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-2": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-3": [
+                            "scale_normal"
+                        ],
+                        "profit_margin-4": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-1": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-2": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-3": [
+                            "scale_normal"
+                        ],
+                        "cash_ratio-4": [
+                            "scale_normal"
+                        ],
+                        "modal_month": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "always_same_month": [
+                            "scale_normal"
+                        ],
+                        "max_year": [
+                            "categorical_to_int",
+                            "scale_normal"
+                        ],
+                        "min_year": [
+                            "scale_normal"
+                        ],
+                        "max_year_gap": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "multiclass_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "X_path": "AutoML_3\\X.data",
+                    "y_path": "AutoML_3\\y.data",
+                    "results_path": "AutoML_3"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.05,
+                    "num_class": 5
+                },
+                "automl_random_state": 1234,
+                "ml_task": "multiclass_classification",
+                "explain_level": 1,
+                "name": "25_NeuralNetwork",
+                "status": "initialized",
+                "final_loss": null,
+                "train_time": null,
+                "data_type": "original"
+            }
+        ]
+    },
+    "adjust_validation": false
+}

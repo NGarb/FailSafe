@@ -1,0 +1,153 @@
+{
+    "uid": "860e9cf9-2148-4eb1-8434-b71eef3e579b",
+    "name": "3_Default_Xgboost",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "modal_month": {
+                            "Apr": 0,
+                            "Aug": 1,
+                            "Dec": 2,
+                            "Feb": 3,
+                            "Jan": 4,
+                            "Jul": 5,
+                            "Jun": 6,
+                            "Mar": 7,
+                            "May": 8,
+                            "Nov": 9,
+                            "Oct": 10,
+                            "Sep": 11
+                        },
+                        "max_year": {
+                            "09": 0,
+                            "15": 1,
+                            "16": 2,
+                            "17": 3,
+                            "18": 4,
+                            "19": 5
+                        }
+                    },
+                    "columns": [
+                        "modal_month",
+                        "max_year"
+                    ]
+                }
+            ],
+            "categorical_y": {
+                "A": 0,
+                "AA": 1,
+                "AAA": 2,
+                "B": 3,
+                "C": 4
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "modal_month": [
+                        "categorical_to_int"
+                    ],
+                    "max_year": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "02e4b195-5eab-468c-a975-419f9c9c43c3",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "objective": "multi:softprob",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 3,
+                "eval_metric": "mlogloss",
+                "num_class": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 129
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "modal_month": [
+                    "categorical_to_int"
+                ],
+                "max_year": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "objective": "multi:softprob",
+            "eta": 0.075,
+            "max_depth": 6,
+            "min_child_weight": 1,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "seed": 3,
+            "eval_metric": "mlogloss",
+            "num_class": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "3_Default_Xgboost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "3_Default_Xgboost\\learner_fold_0.xgboost"
+    ],
+    "predictions_fname": "3_Default_Xgboost\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.6468491970000136,
+    "train_time": 29.2552227973938,
+    "is_stacked": false
+}

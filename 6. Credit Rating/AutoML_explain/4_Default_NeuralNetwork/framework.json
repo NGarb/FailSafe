@@ -1,0 +1,699 @@
+{
+    "uid": "56297394-e6b9-4358-85a6-6b6ea91ce5dd",
+    "name": "4_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "modal_month": {
+                            "Apr": 0,
+                            "Aug": 1,
+                            "Dec": 2,
+                            "Feb": 3,
+                            "Jan": 4,
+                            "Jul": 5,
+                            "Jun": 6,
+                            "Mar": 7,
+                            "May": 8,
+                            "Nov": 9,
+                            "Oct": 10,
+                            "Sep": 11
+                        },
+                        "max_year": {
+                            "09": 0,
+                            "15": 1,
+                            "16": 2,
+                            "17": 3,
+                            "18": 4,
+                            "19": 5
+                        }
+                    },
+                    "columns": [
+                        "modal_month",
+                        "max_year"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        14732.915499568031,
+                        16266.12909416074,
+                        23258.818799287226,
+                        12696.82687820728,
+                        12439.2687480432,
+                        14562.341485507623,
+                        15997.452009415572,
+                        23116.77850517398,
+                        12440.432875571607,
+                        12235.841563714948,
+                        8480.042153789813,
+                        8899.799076304751,
+                        3701.2506651226663,
+                        5177.333603818562,
+                        2717.0789145983285,
+                        9115.38600341288,
+                        9221.329663882338,
+                        3658.853129344866,
+                        5030.285438689897,
+                        2717.458919520912,
+                        35829.95245742722,
+                        62832.74971823563,
+                        25343.82462004301,
+                        22972.57867131425,
+                        18853.41196694142,
+                        6838.343913452495,
+                        36078.42491473839,
+                        6132.126619795921,
+                        6063.274634710184,
+                        6424.339309878212,
+                        24017.01086805325,
+                        23599.177859630563,
+                        16520.15815399323,
+                        14908.097831238862,
+                        10698.824459401092,
+                        133.1200040133073,
+                        81.03283730200138,
+                        92.0447593210352,
+                        127.19508510367127,
+                        388.45633804221256,
+                        246.1447873311728,
+                        245.32142313461753,
+                        145.99847971969527,
+                        532.6888778112809,
+                        261.10576078150046,
+                        1346.6530296248402,
+                        1109.5851185711156,
+                        646.0605794140115,
+                        747.4912822377775,
+                        458.93745959703733,
+                        1.9874544053159868,
+                        0.21588656155726005,
+                        0.5003750235395079,
+                        1.0307071556256866,
+                        0.13701159563439722
+                    ],
+                    "mean": [
+                        15394.943208074912,
+                        13699.939681381491,
+                        12223.045725404354,
+                        10366.269852851758,
+                        9245.05375167214,
+                        15167.553934087317,
+                        13481.554420527787,
+                        12040.037942356805,
+                        10221.576067128784,
+                        9120.18022619482,
+                        1114.0295512586647,
+                        1135.8158822814057,
+                        898.1028821597957,
+                        727.4835218290161,
+                        524.6096315213425,
+                        848.7249179131704,
+                        861.2665693785723,
+                        660.700717499696,
+                        555.5629332360452,
+                        382.31642952693664,
+                        9278.054481332847,
+                        8845.0643317524,
+                        7200.086951234342,
+                        6262.34427824395,
+                        5538.638939559772,
+                        1359.509789614496,
+                        1629.3565608658641,
+                        1102.2908914021646,
+                        1005.8361911711054,
+                        966.0142283838015,
+                        3083.3847744132313,
+                        2950.662775142892,
+                        2495.113462240058,
+                        2186.65693785723,
+                        1783.596011188131,
+                        34.249993919494095,
+                        35.76608293810046,
+                        34.875811747537384,
+                        31.30728444606591,
+                        26.339353034172444,
+                        6.847452268028699,
+                        12.424273379545177,
+                        8.501921439863796,
+                        12.269244801167458,
+                        9.04522680287,
+                        192.27825611090844,
+                        204.1159430864648,
+                        191.14269731241637,
+                        183.39569500182412,
+                        164.14311078681743,
+                        2.2401799829745834,
+                        0.9509911224613888,
+                        3.3468320564270946,
+                        13.738051805910251,
+                        1.0141067736835705
+                    ],
+                    "var": [
+                        217058799.1174119,
+                        264586955.70790252,
+                        540972651.938077,
+                        161209412.7751668,
+                        154735406.98604423,
+                        212061789.54053634,
+                        255918470.7935543,
+                        534385448.4572737,
+                        154764370.13160282,
+                        149715818.77233428,
+                        71911114.93005218,
+                        79206423.5985949,
+                        13699256.486070981,
+                        26804783.245228898,
+                        7382517.828154832,
+                        83090261.99121542,
+                        85032920.76999636,
+                        13387206.222116718,
+                        25303771.594695613,
+                        7384582.979283762,
+                        1283785493.1014948,
+                        3947954437.15444,
+                        642309446.3714982,
+                        527739370.80972254,
+                        355451142.79520994,
+                        46762947.47865278,
+                        1301652744.3284156,
+                        37602976.881209746,
+                        36763299.29591992,
+                        41272135.56844646,
+                        576816811.036188,
+                        556921195.6504774,
+                        272915625.432949,
+                        222251380.94578883,
+                        114464844.81307907,
+                        17720.935468502947,
+                        6566.320721212626,
+                        8472.237718467297,
+                        16178.58967453018,
+                        150898.32656516574,
+                        60587.256330308286,
+                        60182.600648794054,
+                        21315.556080462273,
+                        283757.44054384175,
+                        68176.21831328614,
+                        1813474.382197761,
+                        1231179.1353544765,
+                        417394.27227276826,
+                        558743.2170214767,
+                        210623.5918213823,
+                        3.949975013209923,
+                        0.046607007461016633,
+                        0.25037516418216305,
+                        1.0623572406579935,
+                        0.018772177338283572
+                    ],
+                    "n_samples_seen": 8223,
+                    "n_features_in": 55,
+                    "columns": [
+                        "revenue",
+                        "revenue-1",
+                        "revenue-2",
+                        "revenue-3",
+                        "revenue-4",
+                        "net_sales",
+                        "net_sales-1",
+                        "net_sales-2",
+                        "net_sales-3",
+                        "net_sales-4",
+                        "profit_after_net_financial_items",
+                        "profit_after_net_financial_items-1",
+                        "profit_after_net_financial_items-2",
+                        "profit_after_net_financial_items-3",
+                        "profit_after_net_financial_items-4",
+                        "profit",
+                        "profit-1",
+                        "profit-2",
+                        "profit-3",
+                        "profit-4",
+                        "assets",
+                        "assets-1",
+                        "assets-2",
+                        "assets-3",
+                        "assets-4",
+                        "lt_liabilities",
+                        "lt_liabilities-1",
+                        "lt_liabilities-2",
+                        "lt_liabilities-3",
+                        "lt_liabilities-4",
+                        "equity",
+                        "equity-1",
+                        "equity-2",
+                        "equity-3",
+                        "equity-4",
+                        "equity_ratio",
+                        "equity_ratio-1",
+                        "equity_ratio-2",
+                        "equity_ratio-3",
+                        "equity_ratio-4",
+                        "profit_margin",
+                        "profit_margin-1",
+                        "profit_margin-2",
+                        "profit_margin-3",
+                        "profit_margin-4",
+                        "cash_ratio",
+                        "cash_ratio-1",
+                        "cash_ratio-2",
+                        "cash_ratio-3",
+                        "cash_ratio-4",
+                        "modal_month",
+                        "always_same_month",
+                        "max_year",
+                        "min_year",
+                        "max_year_gap"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "A": 0,
+                "AA": 1,
+                "AAA": 2,
+                "B": 3,
+                "C": 4
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "revenue": [
+                        "scale_normal"
+                    ],
+                    "revenue-1": [
+                        "scale_normal"
+                    ],
+                    "revenue-2": [
+                        "scale_normal"
+                    ],
+                    "revenue-3": [
+                        "scale_normal"
+                    ],
+                    "revenue-4": [
+                        "scale_normal"
+                    ],
+                    "net_sales": [
+                        "scale_normal"
+                    ],
+                    "net_sales-1": [
+                        "scale_normal"
+                    ],
+                    "net_sales-2": [
+                        "scale_normal"
+                    ],
+                    "net_sales-3": [
+                        "scale_normal"
+                    ],
+                    "net_sales-4": [
+                        "scale_normal"
+                    ],
+                    "profit_after_net_financial_items": [
+                        "scale_normal"
+                    ],
+                    "profit_after_net_financial_items-1": [
+                        "scale_normal"
+                    ],
+                    "profit_after_net_financial_items-2": [
+                        "scale_normal"
+                    ],
+                    "profit_after_net_financial_items-3": [
+                        "scale_normal"
+                    ],
+                    "profit_after_net_financial_items-4": [
+                        "scale_normal"
+                    ],
+                    "profit": [
+                        "scale_normal"
+                    ],
+                    "profit-1": [
+                        "scale_normal"
+                    ],
+                    "profit-2": [
+                        "scale_normal"
+                    ],
+                    "profit-3": [
+                        "scale_normal"
+                    ],
+                    "profit-4": [
+                        "scale_normal"
+                    ],
+                    "assets": [
+                        "scale_normal"
+                    ],
+                    "assets-1": [
+                        "scale_normal"
+                    ],
+                    "assets-2": [
+                        "scale_normal"
+                    ],
+                    "assets-3": [
+                        "scale_normal"
+                    ],
+                    "assets-4": [
+                        "scale_normal"
+                    ],
+                    "lt_liabilities": [
+                        "scale_normal"
+                    ],
+                    "lt_liabilities-1": [
+                        "scale_normal"
+                    ],
+                    "lt_liabilities-2": [
+                        "scale_normal"
+                    ],
+                    "lt_liabilities-3": [
+                        "scale_normal"
+                    ],
+                    "lt_liabilities-4": [
+                        "scale_normal"
+                    ],
+                    "equity": [
+                        "scale_normal"
+                    ],
+                    "equity-1": [
+                        "scale_normal"
+                    ],
+                    "equity-2": [
+                        "scale_normal"
+                    ],
+                    "equity-3": [
+                        "scale_normal"
+                    ],
+                    "equity-4": [
+                        "scale_normal"
+                    ],
+                    "equity_ratio": [
+                        "scale_normal"
+                    ],
+                    "equity_ratio-1": [
+                        "scale_normal"
+                    ],
+                    "equity_ratio-2": [
+                        "scale_normal"
+                    ],
+                    "equity_ratio-3": [
+                        "scale_normal"
+                    ],
+                    "equity_ratio-4": [
+                        "scale_normal"
+                    ],
+                    "profit_margin": [
+                        "scale_normal"
+                    ],
+                    "profit_margin-1": [
+                        "scale_normal"
+                    ],
+                    "profit_margin-2": [
+                        "scale_normal"
+                    ],
+                    "profit_margin-3": [
+                        "scale_normal"
+                    ],
+                    "profit_margin-4": [
+                        "scale_normal"
+                    ],
+                    "cash_ratio": [
+                        "scale_normal"
+                    ],
+                    "cash_ratio-1": [
+                        "scale_normal"
+                    ],
+                    "cash_ratio-2": [
+                        "scale_normal"
+                    ],
+                    "cash_ratio-3": [
+                        "scale_normal"
+                    ],
+                    "cash_ratio-4": [
+                        "scale_normal"
+                    ],
+                    "modal_month": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "always_same_month": [
+                        "scale_normal"
+                    ],
+                    "max_year": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "min_year": [
+                        "scale_normal"
+                    ],
+                    "max_year_gap": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "f9be4f9c-b0eb-4335-8ff5-d6725576de91",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 4,
+                "num_class": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "revenue": [
+                    "scale_normal"
+                ],
+                "revenue-1": [
+                    "scale_normal"
+                ],
+                "revenue-2": [
+                    "scale_normal"
+                ],
+                "revenue-3": [
+                    "scale_normal"
+                ],
+                "revenue-4": [
+                    "scale_normal"
+                ],
+                "net_sales": [
+                    "scale_normal"
+                ],
+                "net_sales-1": [
+                    "scale_normal"
+                ],
+                "net_sales-2": [
+                    "scale_normal"
+                ],
+                "net_sales-3": [
+                    "scale_normal"
+                ],
+                "net_sales-4": [
+                    "scale_normal"
+                ],
+                "profit_after_net_financial_items": [
+                    "scale_normal"
+                ],
+                "profit_after_net_financial_items-1": [
+                    "scale_normal"
+                ],
+                "profit_after_net_financial_items-2": [
+                    "scale_normal"
+                ],
+                "profit_after_net_financial_items-3": [
+                    "scale_normal"
+                ],
+                "profit_after_net_financial_items-4": [
+                    "scale_normal"
+                ],
+                "profit": [
+                    "scale_normal"
+                ],
+                "profit-1": [
+                    "scale_normal"
+                ],
+                "profit-2": [
+                    "scale_normal"
+                ],
+                "profit-3": [
+                    "scale_normal"
+                ],
+                "profit-4": [
+                    "scale_normal"
+                ],
+                "assets": [
+                    "scale_normal"
+                ],
+                "assets-1": [
+                    "scale_normal"
+                ],
+                "assets-2": [
+                    "scale_normal"
+                ],
+                "assets-3": [
+                    "scale_normal"
+                ],
+                "assets-4": [
+                    "scale_normal"
+                ],
+                "lt_liabilities": [
+                    "scale_normal"
+                ],
+                "lt_liabilities-1": [
+                    "scale_normal"
+                ],
+                "lt_liabilities-2": [
+                    "scale_normal"
+                ],
+                "lt_liabilities-3": [
+                    "scale_normal"
+                ],
+                "lt_liabilities-4": [
+                    "scale_normal"
+                ],
+                "equity": [
+                    "scale_normal"
+                ],
+                "equity-1": [
+                    "scale_normal"
+                ],
+                "equity-2": [
+                    "scale_normal"
+                ],
+                "equity-3": [
+                    "scale_normal"
+                ],
+                "equity-4": [
+                    "scale_normal"
+                ],
+                "equity_ratio": [
+                    "scale_normal"
+                ],
+                "equity_ratio-1": [
+                    "scale_normal"
+                ],
+                "equity_ratio-2": [
+                    "scale_normal"
+                ],
+                "equity_ratio-3": [
+                    "scale_normal"
+                ],
+                "equity_ratio-4": [
+                    "scale_normal"
+                ],
+                "profit_margin": [
+                    "scale_normal"
+                ],
+                "profit_margin-1": [
+                    "scale_normal"
+                ],
+                "profit_margin-2": [
+                    "scale_normal"
+                ],
+                "profit_margin-3": [
+                    "scale_normal"
+                ],
+                "profit_margin-4": [
+                    "scale_normal"
+                ],
+                "cash_ratio": [
+                    "scale_normal"
+                ],
+                "cash_ratio-1": [
+                    "scale_normal"
+                ],
+                "cash_ratio-2": [
+                    "scale_normal"
+                ],
+                "cash_ratio-3": [
+                    "scale_normal"
+                ],
+                "cash_ratio-4": [
+                    "scale_normal"
+                ],
+                "modal_month": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "always_same_month": [
+                    "scale_normal"
+                ],
+                "max_year": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "min_year": [
+                    "scale_normal"
+                ],
+                "max_year_gap": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 4,
+            "num_class": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "4_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "4_Default_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "4_Default_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.8675639779908627,
+    "train_time": 7.44610333442688,
+    "is_stacked": false
+}

@@ -1,0 +1,238 @@
+{
+    "columns": [
+        "revenue",
+        "revenue-1",
+        "revenue-2",
+        "revenue-3",
+        "revenue-4",
+        "net_sales",
+        "net_sales-1",
+        "net_sales-2",
+        "net_sales-3",
+        "net_sales-4",
+        "profit_after_net_financial_items",
+        "profit_after_net_financial_items-1",
+        "profit_after_net_financial_items-2",
+        "profit_after_net_financial_items-3",
+        "profit_after_net_financial_items-4",
+        "profit",
+        "profit-1",
+        "profit-2",
+        "profit-3",
+        "profit-4",
+        "assets",
+        "assets-1",
+        "assets-2",
+        "assets-3",
+        "assets-4",
+        "lt_liabilities",
+        "lt_liabilities-1",
+        "lt_liabilities-2",
+        "lt_liabilities-3",
+        "lt_liabilities-4",
+        "equity",
+        "equity-1",
+        "equity-2",
+        "equity-3",
+        "equity-4",
+        "equity_ratio",
+        "equity_ratio-1",
+        "equity_ratio-2",
+        "equity_ratio-3",
+        "equity_ratio-4",
+        "profit_margin",
+        "profit_margin-1",
+        "profit_margin-2",
+        "profit_margin-3",
+        "profit_margin-4",
+        "cash_ratio",
+        "cash_ratio-1",
+        "cash_ratio-2",
+        "cash_ratio-3",
+        "cash_ratio-4",
+        "modal_month",
+        "always_same_month",
+        "max_year",
+        "min_year",
+        "max_year_gap",
+        "years_missing"
+    ],
+    "rows": 10964,
+    "cols": 56,
+    "target_is_numeric": false,
+    "columns_info": {
+        "revenue": [
+            "scale"
+        ],
+        "revenue-1": [
+            "scale"
+        ],
+        "revenue-2": [
+            "scale"
+        ],
+        "revenue-3": [
+            "scale"
+        ],
+        "revenue-4": [
+            "scale"
+        ],
+        "net_sales": [
+            "scale"
+        ],
+        "net_sales-1": [
+            "scale"
+        ],
+        "net_sales-2": [
+            "scale"
+        ],
+        "net_sales-3": [
+            "scale"
+        ],
+        "net_sales-4": [
+            "scale"
+        ],
+        "profit_after_net_financial_items": [
+            "scale"
+        ],
+        "profit_after_net_financial_items-1": [
+            "scale"
+        ],
+        "profit_after_net_financial_items-2": [
+            "scale"
+        ],
+        "profit_after_net_financial_items-3": [
+            "scale"
+        ],
+        "profit_after_net_financial_items-4": [
+            "scale"
+        ],
+        "profit": [
+            "scale"
+        ],
+        "profit-1": [
+            "scale"
+        ],
+        "profit-2": [
+            "scale"
+        ],
+        "profit-3": [
+            "scale"
+        ],
+        "profit-4": [
+            "scale"
+        ],
+        "assets": [
+            "scale"
+        ],
+        "assets-1": [
+            "scale"
+        ],
+        "assets-2": [
+            "scale"
+        ],
+        "assets-3": [
+            "scale"
+        ],
+        "assets-4": [
+            "scale"
+        ],
+        "lt_liabilities": [
+            "scale"
+        ],
+        "lt_liabilities-1": [
+            "scale"
+        ],
+        "lt_liabilities-2": [
+            "scale"
+        ],
+        "lt_liabilities-3": [
+            "scale"
+        ],
+        "lt_liabilities-4": [
+            "scale"
+        ],
+        "equity": [
+            "scale"
+        ],
+        "equity-1": [
+            "scale"
+        ],
+        "equity-2": [
+            "scale"
+        ],
+        "equity-3": [
+            "scale"
+        ],
+        "equity-4": [
+            "scale"
+        ],
+        "equity_ratio": [
+            "scale"
+        ],
+        "equity_ratio-1": [
+            "scale"
+        ],
+        "equity_ratio-2": [
+            "scale"
+        ],
+        "equity_ratio-3": [
+            "scale"
+        ],
+        "equity_ratio-4": [
+            "scale"
+        ],
+        "profit_margin": [
+            "scale"
+        ],
+        "profit_margin-1": [
+            "scale"
+        ],
+        "profit_margin-2": [
+            "scale"
+        ],
+        "profit_margin-3": [
+            "scale"
+        ],
+        "profit_margin-4": [
+            "scale"
+        ],
+        "cash_ratio": [
+            "scale"
+        ],
+        "cash_ratio-1": [
+            "scale"
+        ],
+        "cash_ratio-2": [
+            "scale"
+        ],
+        "cash_ratio-3": [
+            "scale"
+        ],
+        "cash_ratio-4": [
+            "scale"
+        ],
+        "modal_month": [
+            "categorical",
+            "few_categories"
+        ],
+        "always_same_month": [
+            "scale"
+        ],
+        "max_year": [
+            "categorical",
+            "few_categories"
+        ],
+        "min_year": [
+            "scale"
+        ],
+        "max_year_gap": [
+            "scale"
+        ],
+        "years_missing": []
+    },
+    "target_info": [],
+    "n_features": 56,
+    "is_sample_weighted": false,
+    "n_classes": 5,
+    "num_class": 5
+}

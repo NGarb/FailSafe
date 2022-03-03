@@ -1,0 +1,1735 @@
+[02/24/22 16:22:21] DEBUG	diff parser start
+[02/24/22 16:22:21] DEBUG	line_lengths old: 12; new: 7
+[02/24/22 16:22:21] DEBUG	-> code[replace] old[1:12] new[1:7]
+[02/24/22 16:22:21] DEBUG	parse_part from 1 to 7 (to 6 in part parser)
+[02/24/22 16:22:21] DEBUG	diff parser end
+[02/24/22 16:22:23] DEBUG	diff parser start
+[02/24/22 16:22:23] DEBUG	line_lengths old: 7; new: 7
+[02/24/22 16:22:23] DEBUG	-> code[equal] old[1:6] new[1:6]
+[02/24/22 16:22:23] DEBUG	copy old[2:6] new[1:6]
+[02/24/22 16:22:23] DEBUG	-> code[replace] old[7:7] new[7:7]
+[02/24/22 16:22:23] DEBUG	parse_part from 7 to 7 (to 6 in part parser)
+[02/24/22 16:22:23] DEBUG	diff parser end
+[02/24/22 16:33:02] INFO	loading data
+[02/24/22 17:02:45] INFO	loading data
+[02/24/22 17:07:16] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:07:16] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:07:16] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:07:41] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:07:41] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:07:41] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:07:59] INFO	loading data
+[02/24/22 17:07:59] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:07:59] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:07:59] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:07:59] WARNING	could not find feature set greedy
+[02/24/22 17:08:36] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:08:36] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:08:36] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:08:36] WARNING	could not find feature set greedy
+[02/24/22 17:09:34] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:09:34] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:09:34] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:09:34] WARNING	could not find feature set greedy
+[02/24/22 17:10:12] INFO	loading data
+[02/24/22 17:10:15] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:10:15] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:10:15] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:10:15] WARNING	could not find feature set greedy
+[02/24/22 17:11:19] INFO	preparing datasets (use_cache=%s)
+[02/24/22 17:11:19] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 17:11:19] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 17:11:19] WARNING	could not find feature set greedy
+[02/24/22 18:03:17] INFO	loading data
+[02/24/22 18:04:17] INFO	loading data
+[02/24/22 18:04:31] INFO	loading data
+[02/24/22 18:05:01] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:05:01] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:05:01] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:05:01] WARNING	could not find feature set greedy
+[02/24/22 18:06:38] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:06:38] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:06:38] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:06:38] WARNING	could not find feature set greedy
+[02/24/22 18:06:55] INFO	loading data
+[02/24/22 18:06:55] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:06:55] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:06:55] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:06:55] WARNING	could not find feature set greedy
+[02/24/22 18:07:43] INFO	loading data
+[02/24/22 18:07:44] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:07:44] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:07:44] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:07:44] WARNING	could not find feature set greedy
+[02/24/22 18:14:04] INFO	loading data
+[02/24/22 18:14:05] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:14:05] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:14:05] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:14:05] WARNING	could not find feature set greedy
+[02/24/22 18:15:39] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:15:39] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:15:39] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:15:39] WARNING	could not find feature set greedy
+[02/24/22 18:15:52] INFO	loading data
+[02/24/22 18:15:52] INFO	preparing datasets (use_cache=%s)
+[02/24/22 18:15:52] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset basic_b, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset greedy_f, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/24/22 18:15:52] WARNING	couldn't load dataset basic_f, will generate it
+[02/24/22 18:15:53] WARNING	couldn't load dataset tuples_f, will generate it
+[02/24/22 18:15:53] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/24/22 18:15:53] WARNING	couldn't load dataset greedy_c, will generate it
+[02/24/22 18:15:53] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/24/22 18:15:53] WARNING	could not find feature set greedy
+[02/24/22 18:16:20] INFO	> saving greedy to disk
+[02/25/22 11:49:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[02/25/22 11:49:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+[02/25/22 11:50:20] DEBUG	diff parser start
+[02/25/22 11:50:20] DEBUG	line_lengths old: 29; new: 29
+[02/25/22 11:50:20] DEBUG	-> code[equal] old[1:28] new[1:28]
+[02/25/22 11:50:20] DEBUG	copy old[1:27] new[1:27]
+[02/25/22 11:50:20] DEBUG	parse_part from 28 to 28 (to 28 in part parser)
+[02/25/22 11:50:20] DEBUG	-> code[replace] old[29:29] new[29:29]
+[02/25/22 11:50:20] DEBUG	parse_part from 29 to 29 (to 28 in part parser)
+[02/25/22 11:50:20] DEBUG	diff parser end
+[02/25/22 11:53:05] DEBUG	diff parser start
+[02/25/22 11:53:05] DEBUG	line_lengths old: 29; new: 30
+[02/25/22 11:53:05] DEBUG	-> code[insert] old[1:0] new[1:1]
+[02/25/22 11:53:05] DEBUG	parse_part from 1 to 1 (to 1 in part parser)
+[02/25/22 11:53:05] DEBUG	-> code[equal] old[1:28] new[2:29]
+[02/25/22 11:53:05] DEBUG	copy old[1:27] new[2:28]
+[02/25/22 11:53:05] DEBUG	parse_part from 29 to 29 (to 29 in part parser)
+[02/25/22 11:53:05] DEBUG	-> code[replace] old[29:29] new[30:30]
+[02/25/22 11:53:05] DEBUG	parse_part from 30 to 30 (to 29 in part parser)
+[02/25/22 11:53:05] DEBUG	diff parser end
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\__init__.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\__init__.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\numeric.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\umath.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\numerictypes.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\fromnumeric.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\arrayprint.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\_asarray.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\_ufunc_config.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\records.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\memmap.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\function_base.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\machar.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\getlimits.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\shape_base.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\einsumfunc.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\__init__.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\type_check.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\index_tricks.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\function_base.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\nanfunctions.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\shape_base.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\stride_tricks.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\twodim_base.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\ufunclike.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\histograms.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\polynomial.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\utils.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\arraysetops.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\npyio.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\financial.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\arraypad.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\lib\_version.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\matrixlib\__init__.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\matrixlib\defmatrix.py
+[02/25/22 11:53:06] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\numpy\core\multiarray.py
+[02/25/22 11:53:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\typing.py
+[02/25/22 11:53:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+[02/25/22 11:53:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\abc.py
+[02/25/22 11:53:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\abc.pyi
+[02/25/22 11:53:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\_typeshed\__init__.pyi
+[02/25/22 13:47:56] INFO	loading data
+[02/25/22 13:47:57] INFO	preparing datasets (use_cache=%s)
+[02/25/22 13:47:58] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset basic_b, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy_f, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset basic_f, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset greedy_c, will generate it
+[02/25/22 13:47:58] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/25/22 13:47:58] WARNING	could not find feature set greedy
+[02/25/22 13:48:21] INFO	> saving greedy to disk
+[02/25/22 14:00:14] INFO	preparing datasets (use_cache=%s)
+[02/25/22 14:00:14] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset basic_b, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy_f, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset basic_f, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset greedy_c, will generate it
+[02/25/22 14:00:14] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/25/22 14:00:14] WARNING	could not find feature set greedy
+[02/25/22 14:00:38] INFO	> saving greedy to disk
+[02/25/22 14:08:52] INFO	preparing datasets (use_cache=%s)
+[02/25/22 14:08:52] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset basic_b, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy_f, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset basic_f, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset tuples_f, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset greedy_c, will generate it
+[02/25/22 14:08:52] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/25/22 14:08:52] WARNING	could not find feature set greedy
+[02/25/22 14:09:16] INFO	> saving greedy to disk
+[02/25/22 14:09:16] INFO	> saving greedy2 to disk
+[02/25/22 14:09:16] INFO	> saving greedy3 to disk
+[02/25/22 14:09:16] INFO	> saving greedy4 to disk
+[02/25/22 14:09:16] WARNING	could not find feature set bsfeats
+[02/28/22 09:45:59] INFO	loading data
+[02/28/22 09:46:06] INFO	preparing datasets (use_cache=%s)
+[02/28/22 09:46:06] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 09:46:06] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 09:46:07] WARNING	could not find feature set bsfeats
+[02/28/22 09:49:43] INFO	preparing datasets (use_cache=%s)
+[02/28/22 09:49:43] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 09:49:43] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 09:49:43] WARNING	could not find feature set bsfeats
+[02/28/22 10:43:56] INFO	loading data
+[02/28/22 10:43:57] INFO	preparing datasets (use_cache=%s)
+[02/28/22 10:43:57] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 10:43:57] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 10:43:57] WARNING	could not find feature set bsfeats
+[02/28/22 10:45:23] INFO	> saving bsfeats to disk
+[02/28/22 10:45:23] INFO	performing feature extraction (feature_set=3)
+[02/28/22 10:45:23] DEBUG	no cache found, cross-tabulating data
+[02/28/22 10:45:37] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:21:05] INFO	loading data
+[02/28/22 16:21:06] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:21:06] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:21:06] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:21:08] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:21:08] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:21:14] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:22:22] INFO	loading data
+[02/28/22 16:22:22] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:22:22] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:22:22] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:22:22] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:22:22] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:22:23] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:24:55] INFO	loading data
+[02/28/22 16:24:55] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:24:55] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:24:55] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:24:57] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:24:57] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:25:00] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:27:56] INFO	loading data
+[02/28/22 16:28:02] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:28:02] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:28:02] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:28:04] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:28:04] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:28:08] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:28:40] INFO	loading data
+[02/28/22 16:28:40] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:28:40] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:28:40] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:28:41] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:28:41] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:28:42] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:30:11] INFO	loading data
+[02/28/22 16:30:11] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:30:11] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:30:11] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:30:13] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:30:13] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:30:17] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:30:45] INFO	loading data
+[02/28/22 16:30:45] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:30:45] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:30:45] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:30:45] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:30:45] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:30:46] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:32:03] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:32:03] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:32:03] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:32:03] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:32:03] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:32:04] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:32:17] INFO	loading data
+[02/28/22 16:32:17] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:32:17] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:32:17] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:32:17] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:32:17] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:32:17] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:34:09] INFO	loading data
+[02/28/22 16:34:09] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:34:09] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:34:09] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:34:10] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:34:10] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:34:12] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:36:47] INFO	loading data
+[02/28/22 16:36:48] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:36:48] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:36:48] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:36:50] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:36:50] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:36:56] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:36:56] DEBUG	no cache found, cross-tabulating data
+[02/28/22 16:36:56] DEBUG	creating feature vectors
+[02/28/22 16:39:05] INFO	loading data
+[02/28/22 16:39:05] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:39:05] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:39:05] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:39:06] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:39:06] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:39:08] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:39:08] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:39:08] DEBUG	creating feature vectors
+[02/28/22 16:41:15] INFO	loading data
+[02/28/22 16:41:16] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:41:16] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:41:16] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:41:17] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:41:17] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:23] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:23] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:23] DEBUG	creating feature vectors
+[02/28/22 16:41:23] INFO	> saving base_feats to disk
+[02/28/22 16:41:23] INFO	performing feature extraction (feature_set=0)
+[02/28/22 16:41:23] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:24] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:24] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:41:24] DEBUG	creating feature vectors
+[02/28/22 16:41:24] INFO	performing preprocessing
+[02/28/22 16:41:24] INFO	created 0 features
+[02/28/22 16:42:37] INFO	loading data
+[02/28/22 16:42:38] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:42:38] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:42:38] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:42:38] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	creating feature vectors
+[02/28/22 16:42:38] INFO	> saving base_feats to disk
+[02/28/22 16:42:38] INFO	performing feature extraction (feature_set=0)
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:42:38] DEBUG	creating feature vectors
+[02/28/22 16:42:39] INFO	performing preprocessing
+[02/28/22 16:42:39] INFO	created 0 features
+[02/28/22 16:49:29] INFO	loading data
+[02/28/22 16:49:29] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:49:29] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:49:29] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:49:31] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:49:31] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:37] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:37] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:37] DEBUG	creating feature vectors
+[02/28/22 16:49:37] INFO	> saving base_feats to disk
+[02/28/22 16:49:37] INFO	performing feature extraction (feature_set=0)
+[02/28/22 16:49:37] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:49:38] DEBUG	creating feature vectors
+[02/28/22 16:49:38] INFO	performing preprocessing
+[02/28/22 16:49:38] INFO	created 0 features
+[02/28/22 16:51:32] INFO	loading data
+[02/28/22 16:51:32] INFO	preparing datasets (use_cache=%s)
+[02/28/22 16:51:32] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 16:51:32] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 16:51:33] INFO	performing feature extraction (feature_set=3)
+[02/28/22 16:51:33] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:51:34] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:51:34] DEBUG	loading cross-tabulated data from cache
+[02/28/22 16:51:34] DEBUG	creating feature vectors
+[02/28/22 17:02:48] INFO	loading data
+[02/28/22 17:02:48] INFO	preparing datasets (use_cache=%s)
+[02/28/22 17:02:48] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 17:02:48] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 17:02:49] INFO	performing feature extraction (feature_set=3)
+[02/28/22 17:02:49] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:02:49] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:02:49] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:02:49] DEBUG	creating feature vectors
+[02/28/22 17:13:00] INFO	loading data
+[02/28/22 17:13:00] INFO	preparing datasets (use_cache=%s)
+[02/28/22 17:13:00] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 17:13:00] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 17:13:01] INFO	performing feature extraction (feature_set=3)
+[02/28/22 17:13:01] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:13:04] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:13:04] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:13:05] DEBUG	creating feature vectors
+[02/28/22 17:21:59] INFO	loading data
+[02/28/22 17:22:00] INFO	preparing datasets (use_cache=%s)
+[02/28/22 17:22:00] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 17:22:00] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 17:22:02] INFO	performing feature extraction (feature_set=3)
+[02/28/22 17:22:02] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:06] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:06] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:06] DEBUG	creating feature vectors
+[02/28/22 17:22:12] INFO	> saving base_feats to disk
+[02/28/22 17:22:13] INFO	performing feature extraction (feature_set=0)
+[02/28/22 17:22:13] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:13] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:13] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:13] DEBUG	creating feature vectors
+[02/28/22 17:22:24] INFO	performing preprocessing
+[02/28/22 17:22:26] INFO	created 52 features
+[02/28/22 17:22:27] INFO	> saving lrfeats to disk
+[02/28/22 17:22:27] INFO	performing feature extraction (feature_set=1)
+[02/28/22 17:22:27] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:27] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:27] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:27] DEBUG	creating feature vectors
+[02/28/22 17:22:34] INFO	performing preprocessing
+[02/28/22 17:22:35] INFO	created 68 features
+[02/28/22 17:22:36] INFO	> saving features to disk
+[02/28/22 17:22:36] INFO	performing feature extraction (feature_set=2)
+[02/28/22 17:22:36] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:36] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:36] DEBUG	loading cross-tabulated data from cache
+[02/28/22 17:22:36] DEBUG	creating feature vectors
+[02/28/22 17:22:38] INFO	performing preprocessing
+[02/28/22 17:22:38] INFO	created 0 features
+[02/28/22 17:22:38] INFO	> saving metafeatures to disk
+[02/28/22 18:14:12] INFO	loading data
+[02/28/22 18:14:13] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:15:03] INFO	loading data
+[02/28/22 18:15:03] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:15:03] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:15:03] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:15:05] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:15:05] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:15:10] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:15:10] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:15:11] DEBUG	creating feature vectors
+[02/28/22 18:19:14] INFO	loading data
+[02/28/22 18:19:15] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:19:15] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:19:15] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:19:16] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:19:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:19:20] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:19:20] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:19:20] DEBUG	creating feature vectors
+[02/28/22 18:20:50] INFO	loading data
+[02/28/22 18:20:50] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:20:50] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:20:50] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:20:50] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:20:50] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:20:50] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:20:50] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:20:50] DEBUG	creating feature vectors
+[02/28/22 18:21:44] INFO	loading data
+[02/28/22 18:21:44] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:21:44] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:21:44] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:21:45] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:21:45] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:45] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:45] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:45] DEBUG	creating feature vectors
+[02/28/22 18:21:51] INFO	> saving base_feats to disk
+[02/28/22 18:21:51] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:21:51] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:51] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:51] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:21:51] DEBUG	creating feature vectors
+[02/28/22 18:22:01] INFO	performing preprocessing
+[02/28/22 18:22:03] INFO	created 52 features
+[02/28/22 18:22:04] INFO	> saving lrfeats to disk
+[02/28/22 18:22:04] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:22:04] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:05] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:05] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:05] DEBUG	creating feature vectors
+[02/28/22 18:22:11] INFO	performing preprocessing
+[02/28/22 18:22:12] INFO	created 68 features
+[02/28/22 18:22:13] INFO	> saving features to disk
+[02/28/22 18:22:14] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:22:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:22:14] DEBUG	creating feature vectors
+[02/28/22 18:22:16] INFO	performing preprocessing
+[02/28/22 18:22:16] INFO	created 0 features
+[02/28/22 18:22:16] INFO	> saving metafeatures to disk
+[02/28/22 18:23:42] INFO	loading data
+[02/28/22 18:23:42] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:23:42] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:23:42] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:23:43] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:23:43] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:23:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:23:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:23:44] DEBUG	creating feature vectors
+[02/28/22 18:25:37] INFO	loading data
+[02/28/22 18:25:37] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:25:37] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:25:37] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:25:38] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:25:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:38] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:38] DEBUG	creating feature vectors
+[02/28/22 18:25:46] INFO	> saving base_feats to disk
+[02/28/22 18:25:46] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:25:46] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:46] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:46] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:25:46] DEBUG	creating feature vectors
+[02/28/22 18:25:57] INFO	performing preprocessing
+[02/28/22 18:26:00] INFO	created 52 features
+[02/28/22 18:26:00] INFO	> saving lrfeats to disk
+[02/28/22 18:26:02] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:26:02] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:02] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:02] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:02] DEBUG	creating feature vectors
+[02/28/22 18:26:09] INFO	performing preprocessing
+[02/28/22 18:26:10] INFO	created 68 features
+[02/28/22 18:26:11] INFO	> saving features to disk
+[02/28/22 18:26:14] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:26:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:14] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:26:14] DEBUG	creating feature vectors
+[02/28/22 18:26:16] INFO	performing preprocessing
+[02/28/22 18:26:16] INFO	created 0 features
+[02/28/22 18:26:16] INFO	> saving metafeatures to disk
+[02/28/22 18:26:16] INFO	> saving basic to disk
+[02/28/22 18:26:16] DEBUG	creating feature tuples
+[02/28/22 18:26:16] DEBUG	creating feature tuples
+[02/28/22 18:26:16] INFO	> saving tuples to disk
+[02/28/22 18:26:17] DEBUG	creating feature tuples
+[02/28/22 18:26:17] DEBUG	creating feature tuples
+[02/28/22 18:26:17] INFO	> saving triples to disk
+[02/28/22 18:30:55] INFO	loading data
+[02/28/22 18:30:56] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:30:56] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:30:56] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:30:59] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:30:59] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:10] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:11] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:11] DEBUG	creating feature vectors
+[02/28/22 18:31:18] INFO	> saving base_feats to disk
+[02/28/22 18:31:18] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:31:18] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:19] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:19] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:19] DEBUG	creating feature vectors
+[02/28/22 18:31:30] INFO	performing preprocessing
+[02/28/22 18:31:31] INFO	created 52 features
+[02/28/22 18:31:32] INFO	> saving lrfeats to disk
+[02/28/22 18:31:34] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:31:34] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:34] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:34] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:34] DEBUG	creating feature vectors
+[02/28/22 18:31:41] INFO	performing preprocessing
+[02/28/22 18:31:42] INFO	created 68 features
+[02/28/22 18:31:43] INFO	> saving features to disk
+[02/28/22 18:31:46] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:31:46] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:47] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:47] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:31:47] DEBUG	creating feature vectors
+[02/28/22 18:31:48] INFO	performing preprocessing
+[02/28/22 18:31:49] INFO	created 0 features
+[02/28/22 18:31:49] INFO	> saving metafeatures to disk
+[02/28/22 18:31:49] INFO	> saving basic to disk
+[02/28/22 18:31:49] DEBUG	creating feature tuples
+[02/28/22 18:31:49] DEBUG	creating feature tuples
+[02/28/22 18:31:49] INFO	> saving tuples to disk
+[02/28/22 18:31:49] DEBUG	creating feature tuples
+[02/28/22 18:31:49] DEBUG	creating feature tuples
+[02/28/22 18:31:49] INFO	> saving triples to disk
+[02/28/22 18:32:48] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\__init__.py
+[02/28/22 18:32:48] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[02/28/22 18:32:49] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\cross_decomposition\__init__.py
+[02/28/22 18:32:54] DEBUG	diff parser start
+[02/28/22 18:32:54] DEBUG	line_lengths old: 1; new: 1
+[02/28/22 18:32:54] DEBUG	-> code[replace] old[1:1] new[1:1]
+[02/28/22 18:32:54] DEBUG	parse_part from 1 to 1 (to 0 in part parser)
+[02/28/22 18:32:54] DEBUG	diff parser end
+[02/28/22 18:34:05] INFO	loading data
+[02/28/22 18:34:06] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:34:06] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:34:06] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:34:07] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:34:07] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:11] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:11] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:11] DEBUG	creating feature vectors
+[02/28/22 18:34:18] INFO	> saving base_feats to disk
+[02/28/22 18:34:18] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:34:18] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:18] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:18] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:18] DEBUG	creating feature vectors
+[02/28/22 18:34:30] INFO	performing preprocessing
+[02/28/22 18:34:32] INFO	created 52 features
+[02/28/22 18:34:32] INFO	> saving lrfeats to disk
+[02/28/22 18:34:33] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:34:33] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:33] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:33] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:33] DEBUG	creating feature vectors
+[02/28/22 18:34:40] INFO	performing preprocessing
+[02/28/22 18:34:41] INFO	created 68 features
+[02/28/22 18:34:42] INFO	> saving features to disk
+[02/28/22 18:34:43] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:34:43] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:34:44] DEBUG	creating feature vectors
+[02/28/22 18:34:45] INFO	performing preprocessing
+[02/28/22 18:34:45] INFO	created 0 features
+[02/28/22 18:34:45] INFO	> saving metafeatures to disk
+[02/28/22 18:34:45] INFO	> saving basic to disk
+[02/28/22 18:34:45] DEBUG	creating feature tuples
+[02/28/22 18:34:45] DEBUG	creating feature tuples
+[02/28/22 18:34:46] INFO	> saving tuples to disk
+[02/28/22 18:34:46] DEBUG	creating feature tuples
+[02/28/22 18:34:46] DEBUG	creating feature tuples
+[02/28/22 18:34:46] INFO	> saving triples to disk
+[02/28/22 18:37:02] INFO	loading data
+[02/28/22 18:37:04] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:37:04] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:37:04] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:37:05] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:37:05] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:09] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:09] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:09] DEBUG	creating feature vectors
+[02/28/22 18:37:15] INFO	> saving base_feats to disk
+[02/28/22 18:37:15] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:37:15] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:16] DEBUG	creating feature vectors
+[02/28/22 18:37:25] INFO	performing preprocessing
+[02/28/22 18:37:27] INFO	created 52 features
+[02/28/22 18:37:28] INFO	> saving lrfeats to disk
+[02/28/22 18:37:29] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:37:29] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:29] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:29] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:29] DEBUG	creating feature vectors
+[02/28/22 18:37:35] INFO	performing preprocessing
+[02/28/22 18:37:36] INFO	created 68 features
+[02/28/22 18:37:37] INFO	> saving features to disk
+[02/28/22 18:37:43] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:37:43] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:44] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:37:44] DEBUG	creating feature vectors
+[02/28/22 18:37:45] INFO	performing preprocessing
+[02/28/22 18:37:46] INFO	created 0 features
+[02/28/22 18:37:46] INFO	> saving metafeatures to disk
+[02/28/22 18:37:46] INFO	> saving basic to disk
+[02/28/22 18:37:46] DEBUG	creating feature tuples
+[02/28/22 18:37:46] DEBUG	creating feature tuples
+[02/28/22 18:37:46] INFO	> saving tuples to disk
+[02/28/22 18:37:46] DEBUG	creating feature tuples
+[02/28/22 18:37:46] DEBUG	creating feature tuples
+[02/28/22 18:37:46] INFO	> saving triples to disk
+[02/28/22 18:39:52] INFO	loading data
+[02/28/22 18:39:53] INFO	preparing datasets (use_cache=%s)
+[02/28/22 18:39:53] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 18:39:53] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 18:39:54] INFO	performing feature extraction (feature_set=3)
+[02/28/22 18:39:54] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:39:59] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:39:59] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:39:59] DEBUG	creating feature vectors
+[02/28/22 18:40:05] INFO	> saving base_feats to disk
+[02/28/22 18:40:05] INFO	performing feature extraction (feature_set=0)
+[02/28/22 18:40:05] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:06] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:06] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:06] DEBUG	creating feature vectors
+[02/28/22 18:40:15] INFO	performing preprocessing
+[02/28/22 18:40:17] INFO	created 52 features
+[02/28/22 18:40:17] INFO	> saving lrfeats to disk
+[02/28/22 18:40:19] INFO	performing feature extraction (feature_set=1)
+[02/28/22 18:40:19] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:19] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:19] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:19] DEBUG	creating feature vectors
+[02/28/22 18:40:26] INFO	performing preprocessing
+[02/28/22 18:40:26] INFO	created 68 features
+[02/28/22 18:40:27] INFO	> saving features to disk
+[02/28/22 18:40:30] INFO	performing feature extraction (feature_set=2)
+[02/28/22 18:40:30] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:30] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:30] DEBUG	loading cross-tabulated data from cache
+[02/28/22 18:40:30] DEBUG	creating feature vectors
+[02/28/22 18:40:32] INFO	performing preprocessing
+[02/28/22 18:40:32] INFO	created 0 features
+[02/28/22 18:40:32] INFO	> saving metafeatures to disk
+[02/28/22 18:40:32] INFO	> saving basic to disk
+[02/28/22 18:40:32] DEBUG	creating feature tuples
+[02/28/22 18:40:32] DEBUG	creating feature tuples
+[02/28/22 18:40:32] INFO	> saving tuples to disk
+[02/28/22 18:40:32] DEBUG	creating feature tuples
+[02/28/22 18:40:32] DEBUG	creating feature tuples
+[02/28/22 18:40:32] INFO	> saving triples to disk
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\__init__.py
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\__init__.py
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\_split.py
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\abc.py
+[02/28/22 19:36:57] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\abc.pyi
+[02/28/22 19:37:46] INFO	loading data
+[02/28/22 19:37:46] INFO	preparing datasets (use_cache=%s)
+[02/28/22 19:37:46] WARNING	couldn't load dataset tuples_sf, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy_sfl, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy3_sf, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset basic_b, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset tuples_fd, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy_f, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy2_f, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset basic_f, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset tuples_f, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy_sbl, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset greedy_c, will generate it
+[02/28/22 19:37:46] WARNING	couldn't load dataset tuples_cf, will generate it
+[02/28/22 19:37:46] INFO	performing feature extraction (feature_set=3)
+[02/28/22 19:37:46] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:47] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:47] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:47] DEBUG	creating feature vectors
+[02/28/22 19:37:53] INFO	> saving base_feats to disk
+[02/28/22 19:37:53] INFO	performing feature extraction (feature_set=0)
+[02/28/22 19:37:53] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:54] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:54] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:37:54] DEBUG	creating feature vectors
+[02/28/22 19:38:04] INFO	performing preprocessing
+[02/28/22 19:38:06] INFO	created 52 features
+[02/28/22 19:38:07] INFO	> saving lrfeats to disk
+[02/28/22 19:38:07] INFO	performing feature extraction (feature_set=1)
+[02/28/22 19:38:07] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:07] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:07] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:07] DEBUG	creating feature vectors
+[02/28/22 19:38:14] INFO	performing preprocessing
+[02/28/22 19:38:15] INFO	created 68 features
+[02/28/22 19:38:15] INFO	> saving features to disk
+[02/28/22 19:38:16] INFO	performing feature extraction (feature_set=2)
+[02/28/22 19:38:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:16] DEBUG	loading cross-tabulated data from cache
+[02/28/22 19:38:16] DEBUG	creating feature vectors
+[02/28/22 19:38:17] INFO	performing preprocessing
+[02/28/22 19:38:18] INFO	created 0 features
+[02/28/22 19:38:18] INFO	> saving metafeatures to disk
+[02/28/22 19:38:18] INFO	> saving basic to disk
+[02/28/22 19:38:18] DEBUG	creating feature tuples
+[02/28/22 19:38:18] DEBUG	creating feature tuples
+[02/28/22 19:38:18] INFO	> saving tuples to disk
+[02/28/22 19:38:18] DEBUG	creating feature tuples
+[02/28/22 19:38:18] DEBUG	creating feature tuples
+[02/28/22 19:38:18] INFO	> saving triples to disk
+[03/01/22 09:06:50] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\__init__.py
+[03/01/22 09:06:50] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\__init__.py
+[03/01/22 09:07:55] DEBUG	diff parser start
+[03/01/22 09:07:55] DEBUG	line_lengths old: 1; new: 3
+[03/01/22 09:07:55] DEBUG	-> code[replace] old[1:1] new[1:3]
+[03/01/22 09:07:55] DEBUG	parse_part from 1 to 3 (to 2 in part parser)
+[03/01/22 09:07:55] DEBUG	diff parser end
+[03/01/22 09:07:55] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[03/01/22 09:07:55] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\_split.py
+[03/01/22 09:07:55] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\abc.py
+[03/01/22 09:07:56] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\abc.pyi
+[03/01/22 09:08:30] DEBUG	diff parser start
+[03/01/22 09:08:30] DEBUG	line_lengths old: 3; new: 3
+[03/01/22 09:08:30] DEBUG	-> code[equal] old[1:2] new[1:2]
+[03/01/22 09:08:30] DEBUG	copy old[1:2] new[1:2]
+[03/01/22 09:08:30] DEBUG	-> code[replace] old[3:3] new[3:3]
+[03/01/22 09:08:30] DEBUG	parse_part from 3 to 3 (to 2 in part parser)
+[03/01/22 09:08:30] DEBUG	diff parser end
+[03/01/22 09:08:30] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\typing.py
+[03/01/22 09:08:30] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+[03/01/22 09:10:23] INFO	loading data
+[03/01/22 09:10:24] INFO	preparing datasets (use_cache=%s)
+[03/01/22 09:10:24] WARNING	couldn't load dataset tuples_sf, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy_sfl, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy3_sf, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset basic_b, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset tuples_f, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset tuples_fd, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy_f, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy2_f, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset basic_f, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset tuples_f, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy_sbl, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset greedy_c, will generate it
+[03/01/22 09:10:24] WARNING	couldn't load dataset tuples_cf, will generate it
+[03/01/22 09:10:27] INFO	performing feature extraction (feature_set=3)
+[03/01/22 09:10:27] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:33] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:33] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:33] DEBUG	creating feature vectors
+[03/01/22 09:10:38] INFO	> saving base_feats to disk
+[03/01/22 09:10:39] INFO	performing feature extraction (feature_set=0)
+[03/01/22 09:10:39] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:39] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:39] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:39] DEBUG	creating feature vectors
+[03/01/22 09:10:48] INFO	performing preprocessing
+[03/01/22 09:10:50] INFO	created 52 features
+[03/01/22 09:10:50] INFO	> saving lrfeats to disk
+[03/01/22 09:10:52] INFO	performing feature extraction (feature_set=1)
+[03/01/22 09:10:52] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:52] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:52] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:10:52] DEBUG	creating feature vectors
+[03/01/22 09:10:58] INFO	performing preprocessing
+[03/01/22 09:10:59] INFO	created 68 features
+[03/01/22 09:11:00] INFO	> saving features to disk
+[03/01/22 09:11:02] INFO	performing feature extraction (feature_set=2)
+[03/01/22 09:11:02] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:11:03] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:11:03] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:11:03] DEBUG	creating feature vectors
+[03/01/22 09:11:04] INFO	performing preprocessing
+[03/01/22 09:11:04] INFO	created 0 features
+[03/01/22 09:11:04] INFO	> saving metafeatures to disk
+[03/01/22 09:11:04] INFO	> saving basic to disk
+[03/01/22 09:11:04] DEBUG	creating feature tuples
+[03/01/22 09:11:04] DEBUG	creating feature tuples
+[03/01/22 09:11:04] INFO	> saving tuples to disk
+[03/01/22 09:11:04] DEBUG	creating feature tuples
+[03/01/22 09:11:04] DEBUG	creating feature tuples
+[03/01/22 09:11:04] INFO	> saving triples to disk
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\__init__.py
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\__init__.py
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\_split.py
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\abc.py
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\abc.pyi
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\typing.py
+[03/01/22 09:12:20] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+[03/01/22 09:12:40] DEBUG	diff parser start
+[03/01/22 09:12:40] DEBUG	line_lengths old: 3; new: 3
+[03/01/22 09:12:40] DEBUG	-> code[equal] old[1:1] new[1:1]
+[03/01/22 09:12:40] DEBUG	copy old[1:1] new[1:1]
+[03/01/22 09:12:40] DEBUG	-> code[replace] old[2:3] new[2:3]
+[03/01/22 09:12:40] DEBUG	parse_part from 2 to 3 (to 2 in part parser)
+[03/01/22 09:12:40] DEBUG	diff parser end
+[03/01/22 09:15:46] INFO	loading data
+[03/01/22 09:15:47] INFO	preparing datasets (use_cache=%s)
+[03/01/22 09:15:47] WARNING	couldn't load dataset tuples_sf, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy_sfl, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy3_sf, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset basic_b, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset tuples_f, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset tuples_fd, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy_f, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy2_f, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset basic_f, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset tuples_f, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy_sbl, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset greedy_c, will generate it
+[03/01/22 09:15:47] WARNING	couldn't load dataset tuples_cf, will generate it
+[03/01/22 09:15:48] INFO	performing feature extraction (feature_set=3)
+[03/01/22 09:15:48] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:49] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:49] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:49] DEBUG	creating feature vectors
+[03/01/22 09:15:56] INFO	> saving base_feats to disk
+[03/01/22 09:15:56] INFO	performing feature extraction (feature_set=0)
+[03/01/22 09:15:56] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:57] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:57] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:15:57] DEBUG	creating feature vectors
+[03/01/22 09:16:07] INFO	performing preprocessing
+[03/01/22 09:16:09] INFO	created 52 features
+[03/01/22 09:16:09] INFO	> saving lrfeats to disk
+[03/01/22 09:16:10] INFO	performing feature extraction (feature_set=1)
+[03/01/22 09:16:10] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:10] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:10] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:10] DEBUG	creating feature vectors
+[03/01/22 09:16:16] INFO	performing preprocessing
+[03/01/22 09:16:17] INFO	created 68 features
+[03/01/22 09:16:18] INFO	> saving features to disk
+[03/01/22 09:16:18] INFO	performing feature extraction (feature_set=2)
+[03/01/22 09:16:18] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:19] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:19] DEBUG	loading cross-tabulated data from cache
+[03/01/22 09:16:19] DEBUG	creating feature vectors
+[03/01/22 09:16:20] INFO	performing preprocessing
+[03/01/22 09:16:20] INFO	created 0 features
+[03/01/22 09:16:20] INFO	> saving metafeatures to disk
+[03/01/22 09:16:20] INFO	> saving basic to disk
+[03/01/22 09:16:20] DEBUG	creating feature tuples
+[03/01/22 09:16:20] DEBUG	creating feature tuples
+[03/01/22 09:16:20] INFO	> saving tuples to disk
+[03/01/22 09:16:20] DEBUG	creating feature tuples
+[03/01/22 09:16:21] DEBUG	creating feature tuples
+[03/01/22 09:16:21] INFO	> saving triples to disk
+[03/01/22 09:16:27] INFO	> saving effects to disk
+[03/01/22 09:16:27] INFO	performing preprocessing
+[03/01/22 09:17:00] INFO	created 148 features
+[03/01/22 09:17:02] INFO	performing preprocessing
+[03/01/22 09:17:11] INFO	created 48 features
+[03/01/22 09:17:12] INFO	performing preprocessing
+[03/01/22 09:17:18] INFO	created 111 features
+[03/01/22 09:17:19] INFO	performing preprocessing
+[03/01/22 09:17:28] INFO	created 156 features
+[03/01/22 09:17:29] INFO	performing preprocessing
+[03/01/22 09:17:31] INFO	created 36 features
+[03/01/22 09:17:31] INFO	> saving tuples_b to disk
+[03/01/22 09:17:32] INFO	> saving tuples_f to disk
+[03/01/22 09:17:39] INFO	> saving tuples_fd to disk
+[03/01/22 09:17:55] INFO	> saving tuples_bd to disk
+[03/01/22 09:18:11] INFO	> saving tuples_sf to disk
+[03/01/22 09:18:17] INFO	> saving tuples_sfl to disk
+[03/01/22 09:18:30] INFO	> saving tuples_sfd to disk
+[03/01/22 09:18:46] INFO	> saving tuples_sb to disk
+[03/01/22 09:18:47] INFO	> saving tuples_sbl to disk
+[03/01/22 09:18:52] INFO	> saving tuples_sbd to disk
+[03/01/22 09:18:58] INFO	> saving tuples_c to disk
+[03/01/22 09:18:58] INFO	> saving tuples_cf to disk
+[03/01/22 09:19:07] INFO	> saving tuples_cb to disk
+[03/01/22 09:19:20] INFO	> saving tuples_sc to disk
+[03/01/22 09:19:22] INFO	> saving tuples_scf to disk
+[03/01/22 09:19:28] INFO	> saving tuples_scfl to disk
+[03/01/22 09:19:37] INFO	> saving tuples_scb to disk
+[03/01/22 09:19:38] INFO	> saving tuples_scbl to disk
+[03/01/22 09:19:42] INFO	> saving greedy_b to disk
+[03/01/22 09:19:43] INFO	> saving greedy_f to disk
+[03/01/22 09:19:51] INFO	> saving greedy_fd to disk
+[03/01/22 09:20:08] INFO	> saving greedy_bd to disk
+[03/01/22 09:20:25] INFO	> saving greedy_sf to disk
+[03/01/22 09:20:29] INFO	> saving greedy_sfl to disk
+[03/01/22 09:20:42] INFO	> saving greedy_sfd to disk
+[03/01/22 09:21:09] INFO	> saving greedy_sb to disk
+[03/01/22 09:21:13] INFO	> saving greedy_sbl to disk
+[03/01/22 09:21:21] INFO	> saving greedy_sbd to disk
+[03/01/22 09:21:31] INFO	> saving greedy_c to disk
+[03/01/22 09:21:31] INFO	> saving greedy_cf to disk
+[03/01/22 09:21:42] INFO	> saving greedy_cb to disk
+[03/01/22 09:21:56] INFO	> saving greedy_sc to disk
+[03/01/22 09:21:58] INFO	> saving greedy_scf to disk
+[03/01/22 09:22:15] INFO	> saving greedy_scfl to disk
+[03/01/22 09:22:43] INFO	> saving greedy_scb to disk
+[03/01/22 09:22:47] INFO	> saving greedy_scbl to disk
+[03/01/22 09:22:55] INFO	> saving greedy2_b to disk
+[03/01/22 09:22:56] INFO	> saving greedy2_f to disk
+[03/01/22 09:23:10] INFO	> saving greedy2_fd to disk
+[03/01/22 09:23:26] INFO	> saving greedy2_bd to disk
+[03/01/22 09:23:42] INFO	> saving greedy2_sf to disk
+[03/01/22 09:23:48] INFO	> saving greedy2_sfl to disk
+[03/01/22 09:24:01] INFO	> saving greedy2_sfd to disk
+[03/01/22 09:24:10] INFO	> saving greedy2_sb to disk
+[03/01/22 09:24:11] INFO	> saving greedy2_sbl to disk
+[03/01/22 09:24:12] INFO	> saving greedy2_sbd to disk
+[03/01/22 09:24:15] INFO	> saving greedy2_c to disk
+[03/01/22 09:24:15] INFO	> saving greedy2_cf to disk
+[03/01/22 09:24:16] INFO	> saving greedy2_cb to disk
+[03/01/22 09:24:29] INFO	> saving greedy2_sc to disk
+[03/01/22 09:24:30] INFO	> saving greedy2_scf to disk
+[03/01/22 09:24:34] INFO	> saving greedy2_scfl to disk
+[03/01/22 09:24:37] INFO	> saving greedy2_scb to disk
+[03/01/22 09:24:38] INFO	> saving greedy2_scbl to disk
+[03/01/22 09:24:39] INFO	> saving greedy3_b to disk
+[03/01/22 09:24:39] INFO	> saving greedy3_f to disk
+[03/01/22 09:24:39] INFO	> saving greedy3_fd to disk
+[03/01/22 09:24:42] INFO	> saving greedy3_bd to disk
+[03/01/22 09:24:52] INFO	> saving greedy3_sf to disk
+[03/01/22 09:24:55] INFO	> saving greedy3_sfl to disk
+[03/01/22 09:25:00] INFO	> saving greedy3_sfd to disk
+[03/01/22 09:25:03] INFO	> saving greedy3_sb to disk
+[03/01/22 09:25:04] INFO	> saving greedy3_sbl to disk
+[03/01/22 09:25:05] INFO	> saving greedy3_sbd to disk
+[03/01/22 09:25:07] INFO	> saving greedy3_c to disk
+[03/01/22 09:25:07] INFO	> saving greedy3_cf to disk
+[03/01/22 09:25:08] INFO	> saving greedy3_cb to disk
+[03/01/22 09:25:16] INFO	> saving greedy3_sc to disk
+[03/01/22 09:25:17] INFO	> saving greedy3_scf to disk
+[03/01/22 09:25:20] INFO	> saving greedy3_scfl to disk
+[03/01/22 09:25:22] INFO	> saving greedy3_scb to disk
+[03/01/22 09:25:23] INFO	> saving greedy3_scbl to disk
+[03/01/22 09:25:23] INFO	> saving basic_b to disk
+[03/01/22 09:25:23] INFO	> saving basic_f to disk
+[03/01/22 09:25:24] INFO	> saving basic_fd to disk
+[03/01/22 09:25:27] INFO	> saving basic_bd to disk
+[03/01/22 09:25:30] INFO	> saving basic_sf to disk
+[03/01/22 09:25:33] INFO	> saving basic_sfl to disk
+[03/01/22 09:25:39] INFO	> saving basic_sfd to disk
+[03/01/22 09:25:43] INFO	> saving basic_sb to disk
+[03/01/22 09:25:44] INFO	> saving basic_sbl to disk
+[03/01/22 09:25:45] INFO	> saving basic_sbd to disk
+[03/01/22 09:25:46] INFO	> saving basic_c to disk
+[03/01/22 09:25:46] INFO	> saving basic_cf to disk
+[03/01/22 09:25:46] INFO	> saving basic_cb to disk
+[03/01/22 09:25:49] INFO	> saving basic_sc to disk
+[03/01/22 09:25:50] INFO	> saving basic_scf to disk
+[03/01/22 09:25:52] INFO	> saving basic_scfl to disk
+[03/01/22 09:25:56] INFO	> saving basic_scb to disk
+[03/01/22 09:25:57] INFO	> saving basic_scbl to disk
+[03/01/22 09:25:57] INFO	> saving tuples_b to disk
+[03/01/22 09:25:57] INFO	> saving tuples_f to disk
+[03/01/22 09:25:59] INFO	> saving tuples_fd to disk
+[03/01/22 09:26:08] INFO	> saving tuples_bd to disk
+[03/01/22 09:26:22] INFO	> saving tuples_sf to disk
+[03/01/22 09:26:25] INFO	> saving tuples_sfl to disk
+[03/01/22 09:26:32] INFO	> saving tuples_sfd to disk
+[03/01/22 09:26:38] INFO	> saving tuples_sb to disk
+[03/01/22 09:26:39] INFO	> saving tuples_sbl to disk
+[03/01/22 09:26:40] INFO	> saving tuples_sbd to disk
+[03/01/22 09:26:43] INFO	> saving tuples_c to disk
+[03/01/22 09:26:43] INFO	> saving tuples_cf to disk
+[03/01/22 09:26:43] INFO	> saving tuples_cb to disk
+[03/01/22 09:26:56] INFO	> saving tuples_sc to disk
+[03/01/22 09:26:57] INFO	> saving tuples_scf to disk
+[03/01/22 09:27:00] INFO	> saving tuples_scfl to disk
+[03/01/22 09:27:05] INFO	> saving tuples_scb to disk
+[03/01/22 09:27:05] INFO	> saving tuples_scbl to disk
+[03/01/22 09:27:07] INFO	> saving tuples_b to disk
+[03/01/22 09:27:09] INFO	> saving tuples_f to disk
+[03/01/22 09:27:12] INFO	> saving tuples_fd to disk
+[03/01/22 09:27:15] INFO	> saving tuples_bd to disk
+[03/01/22 09:27:28] INFO	> saving tuples_sf to disk
+[03/01/22 09:27:31] INFO	> saving tuples_sfl to disk
+[03/01/22 09:27:38] INFO	> saving tuples_sfd to disk
+[03/01/22 09:27:42] INFO	> saving tuples_sb to disk
+[03/01/22 09:27:43] INFO	> saving tuples_sbl to disk
+[03/01/22 09:27:44] INFO	> saving tuples_sbd to disk
+[03/01/22 09:27:53] INFO	> saving tuples_c to disk
+[03/01/22 09:27:53] INFO	> saving tuples_cf to disk
+[03/01/22 09:27:54] INFO	> saving tuples_cb to disk
+[03/01/22 09:28:08] INFO	> saving tuples_sc to disk
+[03/01/22 09:28:11] INFO	> saving tuples_scf to disk
+[03/01/22 09:28:14] INFO	> saving tuples_scfl to disk
+[03/01/22 09:28:15] INFO	> saving tuples_scb to disk
+[03/01/22 09:28:19] INFO	> saving tuples_scbl to disk
+[03/01/22 09:28:22] INFO	> saving greedy_b to disk
+[03/01/22 09:28:23] INFO	> saving greedy_f to disk
+[03/01/22 09:28:25] INFO	> saving greedy_fd to disk
+[03/01/22 09:28:29] INFO	> saving greedy_bd to disk
+[03/01/22 09:28:44] INFO	> saving greedy_sf to disk
+[03/01/22 09:28:48] INFO	> saving greedy_sfl to disk
+[03/01/22 09:28:54] INFO	> saving greedy_sfd to disk
+[03/01/22 09:28:56] INFO	> saving greedy_sb to disk
+[03/01/22 09:28:57] INFO	> saving greedy_sbl to disk
+[03/01/22 09:28:59] INFO	> saving greedy_sbd to disk
+[03/01/22 09:29:02] INFO	> saving greedy_c to disk
+[03/01/22 09:29:02] INFO	> saving greedy_cf to disk
+[03/01/22 09:29:02] INFO	> saving greedy_cb to disk
+[03/01/22 09:29:15] INFO	> saving greedy_sc to disk
+[03/01/22 09:29:16] INFO	> saving greedy_scf to disk
+[03/01/22 09:29:18] INFO	> saving greedy_scfl to disk
+[03/01/22 09:29:19] INFO	> saving greedy_scb to disk
+[03/01/22 09:29:20] INFO	> saving greedy_scbl to disk
+[03/01/22 09:29:21] INFO	> saving greedy2_b to disk
+[03/01/22 09:29:21] INFO	> saving greedy2_f to disk
+[03/01/22 09:29:22] INFO	> saving greedy2_fd to disk
+[03/01/22 09:29:24] INFO	> saving greedy2_bd to disk
+[03/01/22 09:29:38] INFO	> saving greedy2_sf to disk
+[03/01/22 09:29:48] INFO	> saving greedy2_sfl to disk
+[03/01/22 09:30:13] INFO	> saving greedy2_sfd to disk
+[03/01/22 09:30:53] INFO	> saving greedy2_sb to disk
+[03/01/22 09:30:56] INFO	> saving greedy2_sbl to disk
+[03/01/22 09:31:06] INFO	> saving greedy2_sbd to disk
+[03/01/22 09:31:18] INFO	> saving greedy2_c to disk
+[03/01/22 09:31:18] INFO	> saving greedy2_cf to disk
+[03/01/22 09:31:35] INFO	> saving greedy2_cb to disk
+[03/01/22 09:31:49] INFO	> saving greedy2_sc to disk
+[03/01/22 09:31:51] INFO	> saving greedy2_scf to disk
+[03/01/22 09:32:04] INFO	> saving greedy2_scfl to disk
+[03/01/22 09:32:16] INFO	> saving greedy2_scb to disk
+[03/01/22 09:32:18] INFO	> saving greedy2_scbl to disk
+[03/01/22 09:32:27] INFO	> saving basic_b to disk
+[03/01/22 09:32:29] INFO	> saving basic_f to disk
+[03/01/22 09:32:35] INFO	> saving basic_fd to disk
+[03/01/22 09:32:48] INFO	> saving basic_bd to disk
+[03/01/22 09:32:53] INFO	> saving basic_sf to disk
+[03/01/22 09:32:56] INFO	> saving basic_sfl to disk
+[03/01/22 09:33:07] INFO	> saving basic_sfd to disk
+[03/01/22 09:33:12] INFO	> saving basic_sb to disk
+[03/01/22 09:33:13] INFO	> saving basic_sbl to disk
+[03/01/22 09:33:14] INFO	> saving basic_sbd to disk
+[03/01/22 09:33:14] INFO	> saving basic_c to disk
+[03/01/22 09:33:14] INFO	> saving basic_cf to disk
+[03/01/22 09:33:15] INFO	> saving basic_cb to disk
+[03/01/22 09:33:17] INFO	> saving basic_sc to disk
+[03/01/22 09:33:18] INFO	> saving basic_scf to disk
+[03/01/22 09:33:22] INFO	> saving basic_scfl to disk
+[03/01/22 09:33:25] INFO	> saving basic_scb to disk
+[03/01/22 09:33:25] INFO	> saving basic_scbl to disk
+[03/01/22 09:33:26] INFO	> saving tuples_b to disk
+[03/01/22 09:33:26] INFO	> saving tuples_f to disk
+[03/01/22 09:33:27] INFO	> saving tuples_fd to disk
+[03/01/22 09:33:30] INFO	> saving tuples_bd to disk
+[03/01/22 09:33:44] INFO	> saving tuples_sf to disk
+[03/01/22 09:33:46] INFO	> saving tuples_sfl to disk
+[03/01/22 09:33:50] INFO	> saving tuples_sfd to disk
+[03/01/22 09:33:52] INFO	> saving tuples_sb to disk
+[03/01/22 09:33:53] INFO	> saving tuples_sbl to disk
+[03/01/22 09:33:54] INFO	> saving tuples_sbd to disk
+[03/01/22 09:33:57] INFO	> saving tuples_c to disk
+[03/01/22 09:33:57] INFO	> saving tuples_cf to disk
+[03/01/22 09:33:57] INFO	> saving tuples_cb to disk
+[03/01/22 09:34:09] INFO	> saving tuples_sc to disk
+[03/01/22 09:34:10] INFO	> saving tuples_scf to disk
+[03/01/22 09:34:22] INFO	> saving tuples_scfl to disk
+[03/01/22 09:34:46] INFO	> saving tuples_scb to disk
+[03/01/22 09:34:48] INFO	> saving tuples_scbl to disk
+[03/01/22 09:34:56] INFO	> saving greedy_b to disk
+[03/01/22 09:34:56] INFO	> saving greedy_f to disk
+[03/01/22 09:35:08] INFO	> saving greedy_fd to disk
+[03/01/22 09:35:37] INFO	> saving greedy_bd to disk
+[03/01/22 09:36:02] INFO	> saving greedy_sf to disk
+[03/01/22 09:36:17] INFO	> saving greedy_sfl to disk
+[03/01/22 09:37:17] INFO	> saving greedy_sfd to disk
+[03/01/22 09:37:49] INFO	> saving greedy_sb to disk
+[03/01/22 09:37:51] INFO	> saving greedy_sbl to disk
+[03/01/22 09:37:55] INFO	> saving greedy_sbd to disk
+[03/01/22 09:38:02] INFO	> saving greedy_c to disk
+[03/01/22 09:38:02] INFO	> saving greedy_cf to disk
+[03/01/22 09:38:05] INFO	> saving greedy_cb to disk
+[03/01/22 09:38:18] INFO	> saving greedy_sc to disk
+[03/01/22 09:38:19] INFO	> saving greedy_scf to disk
+[03/01/22 09:38:21] INFO	> saving greedy_scfl to disk
+[03/01/22 09:38:25] INFO	> saving greedy_scb to disk
+[03/01/22 09:38:26] INFO	> saving greedy_scbl to disk
+[03/01/22 09:38:27] INFO	> saving greedy_b to disk
+[03/01/22 09:38:27] INFO	> saving greedy_f to disk
+[03/01/22 09:38:29] INFO	> saving greedy_fd to disk
+[03/01/22 09:38:39] INFO	> saving greedy_bd to disk
+[03/01/22 09:38:55] INFO	> saving greedy_sf to disk
+[03/01/22 09:38:57] INFO	> saving greedy_sfl to disk
+[03/01/22 09:39:06] INFO	> saving greedy_sfd to disk
+[03/01/22 09:39:13] INFO	> saving greedy_sb to disk
+[03/01/22 09:39:14] INFO	> saving greedy_sbl to disk
+[03/01/22 09:39:15] INFO	> saving greedy_sbd to disk
+[03/01/22 09:39:18] INFO	> saving greedy_c to disk
+[03/01/22 09:39:18] INFO	> saving greedy_cf to disk
+[03/01/22 09:39:19] INFO	> saving greedy_cb to disk
+[03/01/22 09:39:33] INFO	> saving greedy_sc to disk
+[03/01/22 09:39:34] INFO	> saving greedy_scf to disk
+[03/01/22 09:39:36] INFO	> saving greedy_scfl to disk
+[03/01/22 09:39:38] INFO	> saving greedy_scb to disk
+[03/01/22 09:39:39] INFO	> saving greedy_scbl to disk
+[03/01/22 09:39:43] INFO	> saving tuples_b to disk
+[03/01/22 09:39:43] INFO	> saving tuples_f to disk
+[03/01/22 09:39:45] INFO	> saving tuples_fd to disk
+[03/01/22 09:40:02] INFO	> saving tuples_bd to disk
+[03/01/22 09:40:16] INFO	> saving tuples_sf to disk
+[03/01/22 09:40:28] INFO	> saving tuples_sfl to disk
+[03/01/22 09:41:18] INFO	> saving tuples_sfd to disk
+[03/01/22 09:42:02] INFO	> saving tuples_sb to disk
+[03/01/22 09:42:04] INFO	> saving tuples_sbl to disk
+[03/01/22 09:42:14] INFO	> saving tuples_sbd to disk
+[03/01/22 09:42:23] INFO	> saving tuples_c to disk
+[03/01/22 09:42:23] INFO	> saving tuples_cf to disk
+[03/01/22 09:42:29] INFO	> saving tuples_cb to disk
+[03/01/22 09:42:41] INFO	> saving tuples_sc to disk
+[03/01/22 09:42:42] INFO	> saving tuples_scf to disk
+[03/01/22 09:42:45] INFO	> saving tuples_scfl to disk
+[03/01/22 09:42:46] INFO	> saving tuples_scb to disk
+[03/01/22 09:42:47] INFO	> saving tuples_scbl to disk
+[03/01/22 09:57:35] INFO	loading data
+[03/01/22 09:57:36] INFO	preparing datasets (use_cache=%s)
+[03/01/22 10:01:33] INFO	computing cv score
+[03/01/22 10:02:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\__init__.py
+[03/01/22 10:02:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\__init__.py
+[03/01/22 10:02:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+[03/01/22 10:02:07] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\typing.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\_split.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\utils\__init__.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\utils\validation.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\sklearn\model_selection\_validation.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\types.py
+[03/01/22 10:02:08] DEBUG	pickle loaded: C:\Users\nikig\anaconda3\envs\AutoML\lib\site-packages\jedi\third_party\typeshed\stdlib\3\types.pyi
+[03/01/22 10:02:16] INFO	computing cv score
+[03/01/22 10:02:26] INFO	computing cv score
+[03/01/22 10:15:29] INFO	found params (LR:tuples_sf > 0.8971): {'C': 1.5, 'class_weight': 'auto'}
+[03/01/22 10:25:59] INFO	found params (LR:greedy_sfl > 0.9069): {'C': 1.5, 'class_weight': 'auto'}
+[03/01/22 10:35:24] INFO	found params (LR:greedy2_sfl > 0.9070): {'C': 1.5, 'class_weight': 'auto'}
+[03/01/22 10:40:18] INFO	found params (LR:greedy3_sf > 0.9081): {'C': 2, 'class_weight': 'auto'}
+[03/01/22 16:04:47] INFO	found params (RFC:basic_b > 0.8921): {'max_depth': 35, 'max_features': 3, 'min_samples_split': 5, 'n_jobs': 1}
+[03/01/22 21:27:05] INFO	found params (RFC:tuples_f > 0.9011): {'max_depth': None, 'max_features': 3, 'min_samples_split': 5, 'n_jobs': 1}
+[03/02/22 13:58:15] INFO	computing cv score

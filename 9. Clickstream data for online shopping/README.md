@@ -23,6 +23,8 @@ There is no set problem statement for this dataset, so we will predict price bec
 - hp choice returns the index of the input list/array
 - hp choice is much faster than choosing from a distribution
 - always dismissed model choice as secondary to features and problem definition but seeing the results of xgb vs lgm vs ctb has changed my mind
+- from Amazon Access solution: never ever would have thought about unrolling all features (sparsify dataset), training logistic regression models and populating the dataset with the coefficients
+
 
 
 robust.scale.mad(state['Population'])

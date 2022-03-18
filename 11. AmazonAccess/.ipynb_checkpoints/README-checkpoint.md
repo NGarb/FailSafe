@@ -16,9 +16,11 @@ This can be found at: https://github.com/pyduan/amazonaccess
     - % of department that is the resource
     - number of resources a manager manages
     - common but haven't seen it used recently: remove zero variance features
+- stacking
+    - linear model ridge cv
+- custom AUC loss reg
     
 ## QUESTIONS
-- Greedy feature selection loop: don't understand the cumulative feature adding and training, This means that for each new feature you are adding to the selection, you are evaluating how well it plus all its predecessors are doing. Then you are still selecting them as if they are independent. 
 - why remove last added feature from list?
 - how well does this type of thing generalize? All the feature engineering is so cool. I guess based on the fact that this is the winning solution, it performs really well on test. And I guess in a real world setting, you would have be recreating these features and retraining this model periodically. 
 - why drop role code? redundant?

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/FailSafe_500/14/mlruns/0/6e04aa081a2b47ea94f82dc1efb96d97/artifacts
+end_time: 1647613302506
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6e04aa081a2b47ea94f82dc1efb96d97
+run_uuid: 6e04aa081a2b47ea94f82dc1efb96d97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1647613298503
+status: 3
+tags: []
+user_id: nikig
